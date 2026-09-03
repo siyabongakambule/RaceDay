@@ -141,7 +141,7 @@ INSERT INTO dbo.Enrollments (ParticipantID, CategoryID, Status) VALUES
 (3, 3, N'Pending'),     -- Johan enters the Cycle Tour Short Route
 (4, 5, N'Confirmed');   -- Amahle enters the Park Run
 GO
-
+-- at least one category per event
 -- Results: results captured for some of the confirmed enrolments
 INSERT INTO dbo.Results (EnrollmentID, CapturedByUserID, FinishTime, Position) VALUES
 (1, 1, '07:45:12', 1523),  -- captured by organiser Thabo
