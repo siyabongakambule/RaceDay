@@ -19,7 +19,7 @@ IF OBJECT_ID('dbo.Users', 'U') IS NOT NULL DROP TABLE dbo.Users;
 IF OBJECT_ID('dbo.Roles', 'U') IS NOT NULL DROP TABLE dbo.Roles;
 GO
 
-
+--add null and not null constraints to the table
 CREATE TABLE dbo.Roles (
     RoleID      INT IDENTITY(1,1) PRIMARY KEY,
     RoleName    NVARCHAR(50) NOT NULL UNIQUE
