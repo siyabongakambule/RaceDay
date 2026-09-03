@@ -12,3 +12,6 @@ A UNIQUE constraint was added on Results.EnrollmentID to enforce the ERD's 0.. 1
 
 
 This repository uses a workflow (.github/workflows/validate-docs.yml) that checks the /docs folder exists and contains the required ERD, endpoint plan, and SQL script on every push.
+
+The RaceDay database contains six main entities:
+Roles, Users, Events, EventCategories, Enrollments, and Results.
