@@ -85,7 +85,7 @@ CREATE TABLE dbo.Enrollments (
 );
 GO
 --create enrolments table with unique constraint
-
+--create rseults table with FK constraints
 CREATE TABLE dbo.Results (
     ResultID            INT IDENTITY(1,1) PRIMARY KEY,
     EnrollmentID        INT NOT NULL UNIQUE,      -- UNIQUE enforces the 0..1 cardinality from the ERD
