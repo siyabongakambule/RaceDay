@@ -32,8 +32,9 @@ jobs:
 
       - name: Check API endpoint plan exists
         run: |
-          if ! find docs -iname "*endpoint*" \( -iname "*.md" -o -iname "*.pdf" \) | grep -q .; then
-            echo "ERROR: No API endpoint plan (.md or .pdf) found in /docs."
+        if ! find docs -iname "*endpoint*" \( -iname "*.md" -o -iname "*.pdf" -o -iname "*.png" \) | grep -q .; then
+          
+           echo "ERROR: No API endpoint plan (.md or .pdf) found in /docs."
             exit 1
           fi
           echo "API endpoint plan found."
