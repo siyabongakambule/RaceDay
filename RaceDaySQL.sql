@@ -109,7 +109,7 @@ INSERT INTO dbo.Roles (RoleName) VALUES
 ('Organiser'),
 ('Participant');
 GO
-
+--roles/user organiser and participant
 -- Users: 2 Organisers, 2 Participants (RoleID 2 = Organiser, 3 = Participant)
 INSERT INTO dbo.Users (RoleID, FullName, Email, Password, PhoneNumber) VALUES
 (2, N'Thabo Mokoena',   N'thabo.mokoena@raceday.co.za',   N'HASHED_PASSWORD_1', N'0821234567'),
