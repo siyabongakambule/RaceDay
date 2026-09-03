@@ -19,12 +19,7 @@ planned for Part 2 onward
 - Docker containerisation
 - GitHub Actions CI/CD
 
-## GitHub Actions
-
 This repository uses a workflow (`.github/workflows/validate-docs.yml`) that checks the `/docs` folder exists and contains the required ERD, endpoint plan, and SQL script on every push.
 
-**Build status screenshot:**
 
-_Add your screenshot of the green passing build here once your workflow has run successfully, e.g.:_
 
-`![Build passing](docs/build-success-screenshot.png)`
