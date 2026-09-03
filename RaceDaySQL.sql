@@ -1,4 +1,4 @@
-
+--create roles and users tables
 
 IF DB_ID('RaceDayDB') IS NULL
 BEGIN
