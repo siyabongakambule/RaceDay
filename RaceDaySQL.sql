@@ -84,7 +84,7 @@ CREATE TABLE dbo.Enrollments (
     CONSTRAINT UQ_Enrollments_Participant_Category UNIQUE (ParticipantID, CategoryID)
 );
 GO
-
+--create enrolments table with unique constraint
 
 CREATE TABLE dbo.Results (
     ResultID            INT IDENTITY(1,1) PRIMARY KEY,
