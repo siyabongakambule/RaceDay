@@ -40,7 +40,7 @@ CREATE TABLE dbo.Users (
 );
 GO
 
-
+--3 event organised by two organisers
 CREATE TABLE dbo.Events (
     EventID         INT IDENTITY(1,1) PRIMARY KEY,
     OrganiserID     INT NOT NULL,
