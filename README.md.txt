@@ -18,6 +18,7 @@ Roles, Users, Events, EventCategories, Enrollments, and Results.
 
 Tech stack (planned for Part 2 onward)
 
+This repository uses a workflow (`.github/workflows/validate-docs.yml`) that checks the `/docs` folder exists and contains the required ERD, endpoint plan, and SQL script on every push.
 - ASP.NET Core Web API
 - SQL Server
 - Docker containerisation
