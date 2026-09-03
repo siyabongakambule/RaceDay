@@ -15,3 +15,11 @@ This repository uses a workflow (.github/workflows/validate-docs.yml) that check
 
 The RaceDay database contains six main entities:
 Roles, Users, Events, EventCategories, Enrollments, and Results.
+
+Tech stack (planned for Part 2 onward)
+
+- ASP.NET Core Web API
+- SQL Server
+- Docker containerisation
+- GitHub Actions CI/CD
+
