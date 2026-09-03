@@ -1,5 +1,6 @@
 --create roles and users tables
 --created events table with fk to users
+--create eventscategories Table
 IF DB_ID('RaceDayDB') IS NULL
 BEGIN
     CREATE DATABASE RaceDayDB;
